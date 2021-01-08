@@ -4,7 +4,8 @@
   "description": "PostCSS plugin to define custom units",
   "main": "lib/index.js",
   "scripts": {
-    "dev": "rollup -w --config rollup.config.js"
+    "dev": "rollup -w --config rollup.config.js",
+    "build": "rollup --config rollup.config.js"
   },
   "repository": {
     "type": "git",

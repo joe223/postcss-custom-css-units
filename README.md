@@ -1,11 +1,7 @@
-# PostCSS Custom CSS Units
+# PostCSS Custom CSS Units <img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS" width="90" height="90" align="right">
 
 <a href="https://www.npmjs.com/package/postcss-custom-css-units" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/postcss-custom-css-units"></a>
 <a href="https://travis-ci.org/joe223/postcss-custom-css-units" target="_blank"><img src="https://travis-ci.org/joe223/postcss-custom-css-units.svg?branch=main&status=unknown"></a>
-
-<img align="right" width="95" height="95"
-     alt="Philosopher’s stone, logo of PostCSS"
-     src="https://postcss.org/logo.svg">
 
 Define custom css unit and convert them to CSS variable.
 
