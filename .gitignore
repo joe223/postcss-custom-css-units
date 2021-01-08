@@ -1,0 +1,10 @@
+**/node_modules
+.vscode
+.idea
+*.log
+.DS_Store
+package-lock.json
+/docs
+/web
+/coverage
+.nyc_output

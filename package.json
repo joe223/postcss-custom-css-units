@@ -1,0 +1,33 @@
+{
+  "name": "postcss-custom-css-units",
+  "version": "0.0.1",
+  "description": "PostCSS plugin to define custom units",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "rollup -w --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joe223/postcss-custom-css-units.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "author": "joe223",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joe223/postcss-custom-css-units/issues"
+  },
+  "homepage": "https://github.com/joe223/postcss-custom-css-units#readme",
+  "devDependencies": {
+    "rollup": "^2.36.1"
+  },
+  "peerDependencies": {
+    "postcss": "*"
+  },
+  "dependencies": {
+    "postcss": "^8.2.3"
+  }
+}
