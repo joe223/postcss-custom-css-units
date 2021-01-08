@@ -83,11 +83,11 @@ module.exports = {
         }),
         require('postcss-preset-env')({
             // Some other options...
-			preserve: false
-		}),
-		require("postcss-calc", {
-			preserve: false
-		})
+            preserve: false
+        }),
+        require("postcss-calc", {
+            preserve: false
+        })
     ]
 }
 ```
