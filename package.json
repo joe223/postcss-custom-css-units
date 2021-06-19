@@ -1,10 +1,11 @@
 {
   "name": "postcss-custom-css-units",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "PostCSS plugin to define custom units",
   "main": "lib/index.js",
   "scripts": {
-    "dev": "rollup -w --config rollup.config.js",
+    "dev": "tsc src/** --outDir lib -w",
+    "test": "jest",
     "build": "rollup --config rollup.config.js"
   },
   "repository": {
@@ -23,12 +24,14 @@
   },
   "homepage": "https://github.com/joe223/postcss-custom-css-units#readme",
   "devDependencies": {
-    "rollup": "^2.36.1"
-  },
-  "peerDependencies": {
-    "postcss": "*"
+    "@types/jest": "^26.0.23",
+    "coveralls": "^3.1.0",
+    "jest": "^27.0.4",
+    "rollup": "^2.36.1",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4"
   },
   "dependencies": {
-    "postcss": "^8.2.3"
+    "postcss": "^8.3.5"
   }
 }
